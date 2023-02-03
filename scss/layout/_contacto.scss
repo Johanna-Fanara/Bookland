@@ -1,0 +1,86 @@
+.card-datos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 50px;
+    legend{
+        font-size: 40px;
+        margin-bottom: 40px;
+        text-transform: capitalize;
+        text-decoration: underline;
+    }
+    .labe-nombre{
+        font-size: 30px;
+        text-align: justify;
+        text-transform: capitalize;
+        margin-top: 30px;  
+    }
+    .label-mail{
+        font-size: 30px;
+        text-align: center;
+        text-transform: capitalize;
+        margin-top: 40px; 
+    }
+    .label-msj{
+        font-size: 30px;
+        font-style: normal;
+        color: $color-letra-princip;
+        text-align: center;
+        text-transform: capitalize;
+        margin-top: 40px;
+    }
+}
+.div-acepta{
+    font-size: 15px;
+    font-style: normal;
+    color: $color-letra-princip;
+    text-align: center;
+    text-transform: capitalize;
+}
+.in-enviar{
+    font-size: 15px;
+    font-style: normal;
+    color: $color-letra-princip;
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.h4{
+    font-size: 25px;
+    font-style: normal;
+    color: $color-letra-princip;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.card-contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 50px;
+    font-size: 30px;
+    .inst{
+        display: flex;
+        justify-content: center;
+        height: 60px;
+        width: 80px;
+    }
+    .face{
+        display: flex;
+        justify-content: center;
+        height: 60px;
+        width: 80px; 
+    }
+    .wpp{
+        display: flex;
+        justify-content: center;
+        height: 60px;
+        width: 80px; 
+    }
+
+}
